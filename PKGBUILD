@@ -1,5 +1,5 @@
 # Maintainer: MS-DOS Manfred
-pkgname=86box-git
+pkgname=86box-odr-git
 pkgver=f52a3ff14755cf9addc1856c166bb20cc8bd3f87
 pkgrel=1
 pkgdesc='An emulator for classic IBM PC clones'
@@ -16,7 +16,7 @@ optdepends=(
   'libpcap: Networking not limited to TCP/IP'
 )
 provides=('86box')
-conflicts=('86box')
+conflicts=('86box' '86box-git')
 options=('!buildflags')
 source=(
   "${pkgname}::git+https://github.com/86Box/86Box.git"

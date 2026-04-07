@@ -1,4 +1,4 @@
-pkgbase = 86box-git
+pkgbase = 86box-odr-git
 	pkgdesc = An emulator for classic IBM PC clones
 	pkgver = f52a3ff14755cf9addc1856c166bb20cc8bd3f87
 	pkgrel = 1
@@ -44,10 +44,11 @@ pkgbase = 86box-git
 	optdepends = libpcap: Networking not limited to TCP/IP
 	provides = 86box
 	conflicts = 86box
+	conflicts = 86box-git
 	options = !buildflags
-	source = 86box-git::git+https://github.com/86Box/86Box.git
-	source = 86box-git-assets::git+https://github.com/86Box/assets.git
+	source = 86box-odr-git::git+https://github.com/86Box/86Box.git
+	source = 86box-odr-git-assets::git+https://github.com/86Box/assets.git
 	sha512sums = SKIP
 	sha512sums = SKIP
 
-pkgname = 86box-git
+pkgname = 86box-odr-git
