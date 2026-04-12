@@ -1,6 +1,6 @@
 # Maintainer: MS-DOS Manfred
 pkgname=86box-odr-git
-pkgver=69824bba2c0a1472cc94b8299a58c87b970042f1
+pkgver=53cc390e338876d242f4d5a65d2e33d3e7c52682
 pkgrel=1
 pkgdesc='An emulator for classic IBM PC clones'
 arch=('x86_64' 'aarch64') # use 86box-5.1 for pentium4 and armv7h
@@ -23,7 +23,7 @@ source=(
   "${pkgname}-assets::git+https://github.com/86Box/assets.git"
 )
 sha512sums=('SKIP'
-            'SKIP')
+  'SKIP')
 
 pkgver() {
   cd $pkgname
